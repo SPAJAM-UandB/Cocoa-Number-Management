@@ -13,6 +13,7 @@
 		B15B494124F4D0EE0064509D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15B494024F4D0EE0064509D /* Assets.xcassets */; };
 		B15B494424F4D0EE0064509D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15B494324F4D0EE0064509D /* Preview Assets.xcassets */; };
 		B15B494724F4D0EE0064509D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15B494524F4D0EE0064509D /* LaunchScreen.storyboard */; };
+		B15B495124F4DCB80064509D /* CocoaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B495024F4DCB80064509D /* CocoaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B15B494324F4D0EE0064509D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B15B494624F4D0EE0064509D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15B494824F4D0EE0064509D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15B495024F4DCB80064509D /* CocoaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		B15B494F24F4D0FB0064509D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B15B495024F4DCB80064509D /* CocoaViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15B495124F4DCB80064509D /* CocoaViewModel.swift in Sources */,
 				B15B493B24F4D0ED0064509D /* AppDelegate.swift in Sources */,
 				B15B493D24F4D0ED0064509D /* SceneDelegate.swift in Sources */,
 				B15B493F24F4D0ED0064509D /* ContentView.swift in Sources */,

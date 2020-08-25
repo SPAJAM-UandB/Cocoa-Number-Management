@@ -9,13 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewmodel: CocoaViewModel
+
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Text(viewmodel.name)
+            Button(action: {self.viewmodel.startScan()}){
+                Text("buttun")
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(CocoaViewModel())
     }
 }
