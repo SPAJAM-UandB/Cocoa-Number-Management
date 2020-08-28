@@ -13,6 +13,7 @@ class LedControll: ObservableObject{
     @Published var led_mess: String = "LEDを光らせよう"
     @Published var button_mess: String = "ボタンから送られてくる"
     @Published var stats: String = "disconnect"
+    @Published var illuminance: String = "disconnect"
     var manager: SocketManager!
     var socket: SocketIOClient!
     
@@ -39,9 +40,14 @@ class LedControll: ObservableObject{
             self.led_mess = data[0] as! String
         }
         
-        socket.on("broad") { data, ark in
+        socket.on("broad_button") { data, ark in
             print(type(of: data[0] as! String))
             self.button_mess = data[0] as! String
+        }
+        
+        socket.on("broad_illuminance") { data, ark in
+            print(type(of: data[0] as! String))
+            self.illuminance = data[0] as! String
         }
 
         socket.connect()
