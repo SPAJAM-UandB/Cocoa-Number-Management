@@ -13,8 +13,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
+            Text(self.ledControll.button_mess)
             Text(self.ledControll.stats)
-            Text(self.ledControll.mess)
+            Text(self.ledControll.led_mess)
             HStack{
                 VStack{
                     Button(action: {self.ledControll.turnOnBlue()}){
