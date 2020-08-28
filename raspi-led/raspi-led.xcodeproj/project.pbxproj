@@ -15,6 +15,7 @@
 		B173EDCA24F6672D009BED45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B173EDC924F6672D009BED45 /* Preview Assets.xcassets */; };
 		B173EDCD24F6672D009BED45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B173EDCB24F6672D009BED45 /* LaunchScreen.storyboard */; };
 		B173EDD524F66F85009BED45 /* LedControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173EDD424F66F85009BED45 /* LedControll.swift */; };
+		DAFA7E5724F9548A00F5E248 /* OsamuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7E5624F9548A00F5E248 /* OsamuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B173EDCC24F6672D009BED45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B173EDCE24F6672D009BED45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B173EDD424F66F85009BED45 /* LedControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedControll.swift; sourceTree = "<group>"; };
+		DAFA7E5624F9548A00F5E248 /* OsamuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsamuView.swift; sourceTree = "<group>"; };
 		E70C836F7CF23346A011BA5C /* Pods-raspi-led.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raspi-led.debug.xcconfig"; path = "Target Support Files/Pods-raspi-led/Pods-raspi-led.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				B173EDC024F6672C009BED45 /* AppDelegate.swift */,
 				B173EDC224F6672C009BED45 /* SceneDelegate.swift */,
 				B173EDC424F6672C009BED45 /* ContentView.swift */,
+				DAFA7E5624F9548A00F5E248 /* OsamuView.swift */,
 				B173EDD424F66F85009BED45 /* LedControll.swift */,
 				B173EDC624F6672D009BED45 /* Assets.xcassets */,
 				B173EDCB24F6672D009BED45 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			files = (
 				B173EDC124F6672C009BED45 /* AppDelegate.swift in Sources */,
 				B173EDC324F6672C009BED45 /* SceneDelegate.swift in Sources */,
+				DAFA7E5724F9548A00F5E248 /* OsamuView.swift in Sources */,
 				B173EDD524F66F85009BED45 /* LedControll.swift in Sources */,
 				B173EDC524F6672C009BED45 /* ContentView.swift in Sources */,
 			);
@@ -359,14 +363,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"raspi-led/Preview Content\"";
-				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				DEVELOPMENT_TEAM = Z794K4UU5F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "raspi-led/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rei.nakaoka.raspi-led";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osamu.yamada.raspi-led";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,14 +384,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"raspi-led/Preview Content\"";
-				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				DEVELOPMENT_TEAM = Z794K4UU5F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "raspi-led/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rei.nakaoka.raspi-led";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osamu.yamada.raspi-led";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
